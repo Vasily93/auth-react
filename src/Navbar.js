@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+ import React, { Component } from "react";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
@@ -22,7 +22,7 @@ class Navbar extends Component {
             <Typography className={classes.title} variant='h6' color='inherit'>
               App Title
             </Typography>
-            <Switch />
+            <Switch onClick={() => console.log('clicking switch button')} />
             <div className={classes.grow} />
             <div className={classes.search}>
               <div className={classes.searchIcon}>
